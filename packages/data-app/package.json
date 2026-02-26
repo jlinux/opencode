@@ -1,0 +1,40 @@
+{
+  "name": "@opencode-ai/data-app",
+  "version": "1.2.10",
+  "description": "Data analysis web UI for OpenCode",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./vite": "./vite.js",
+    "./index.css": "./src/index.css"
+  },
+  "scripts": {
+    "typecheck": "tsgo -b",
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@kobalte/core": "catalog:",
+    "@opencode-ai/app": "workspace:*",
+    "@opencode-ai/sdk": "workspace:*",
+    "@opencode-ai/ui": "workspace:*",
+    "@opencode-ai/util": "workspace:*",
+    "@solidjs/meta": "catalog:",
+    "@solidjs/router": "catalog:",
+    "chart.js": "^4.4.7",
+    "luxon": "catalog:",
+    "remeda": "catalog:",
+    "solid-js": "catalog:",
+    "tailwindcss": "catalog:",
+    "virtua": "catalog:",
+    "zod": "catalog:"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "catalog:",
+    "@types/luxon": "catalog:",
+    "vite": "catalog:",
+    "vite-plugin-solid": "catalog:"
+  }
+}
