@@ -30,6 +30,7 @@
     "@solidjs/meta": "catalog:"
   },
   "devDependencies": {
+    "@typescript/native-preview": "catalog:",
     "vite": "catalog:",
     "vite-plugin-solid": "catalog:"
   }
